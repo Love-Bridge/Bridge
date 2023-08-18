@@ -3,6 +3,7 @@ from django.core.management.base import BaseCommand
 from random import randint, sample
 from faker import Faker
 from ...models import *
+from mypage.models import *
 import random
 import os
 
